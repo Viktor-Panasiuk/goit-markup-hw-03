@@ -93,6 +93,7 @@ a {
 }
 
 .banner-button {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -152,6 +153,9 @@ a {
     letter-spacing: 0.03em;
 }
 
+
+/* footer */
+
 .footer {
     background-color: var(--footer-bgd-color);
 }
@@ -166,6 +170,7 @@ a {
 
 .footer-mail,
 .footer-tel {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -174,6 +179,7 @@ a {
 }
 
 .filter-button {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
