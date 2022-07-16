@@ -133,7 +133,7 @@ a {
 
 .banner {
     height: 600px;
-    padding: 200px;
+    padding: 200px 0;
 
     text-align: center;
     background-color: var(--footer-bgd-color);
@@ -174,7 +174,11 @@ a {
 /* Main */
 
 .section {
-    padding: 94px 0px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.advantages {
+    padding-bottom: 0;
 }
 
 .advantages-list {
@@ -212,7 +216,7 @@ a {
 
 
 .present-title,
-.team-title {
+.team-title { 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -223,8 +227,6 @@ a {
 }
 
 .team {
-    margin-top: 94px;
-
     background-color: var(--button-color);
 }
 
@@ -236,7 +238,11 @@ a {
 
 .team-image {
     display: block;
-    margin-bottom: 30px;
+}
+
+.team-box {
+    padding: 30px 0;
+    background-color: #fff;
 }
 
 .team-name {
@@ -310,9 +316,16 @@ a {
     display: block;
 }
 
-.works-title {
-    margin-top: 20px;
+.works-box {
+    padding: 20px 24px;
 
+    background-color: #fff;
+    border: 1px solid #eeeeee;
+    border-top: 0px solid transparent;
+
+}
+
+.works-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -351,6 +364,8 @@ a {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .footer-mail,
